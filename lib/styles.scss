@@ -1,2 +1,15 @@
 @import "variables.scss";
-@import "mixins.scss"; @import "debug.scss"
+@import "mixins.scss";
+@import "debug.scss";
+
+h1 {
+  text-align: center;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.select-button {
+  margin: 20px auto;
+}
