@@ -2,7 +2,12 @@
 @import "mixins.scss";
 @import "debug.scss";
 
+html {
+  background-color: $background-color;
+}
+
 h1 {
+  font-size: $headline-size;
   text-align: center;
 }
 
@@ -11,5 +16,15 @@ h1 {
 }
 
 .select-button {
+  cursor: pointer;
   margin: 20px auto;
+
+  &:hover{
+    background-color: white;
+  }
+
+}
+
+.result {
+  font-style: italic;
 }
