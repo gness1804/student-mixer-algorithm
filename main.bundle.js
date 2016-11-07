@@ -8218,7 +8218,7 @@
 	
 	
 	// module
-	exports.push([module.id, "h1 {\n  text-align: center; }\n\n.main-container {\n  text-align: center; }\n\n.select-button {\n  margin: 20px auto; }\n", ""]);
+	exports.push([module.id, "html {\n  background-color: #7dd2de; }\n\nh1 {\n  font-size: 40px;\n  text-align: center; }\n\n.main-container {\n  text-align: center; }\n\n.select-button {\n  cursor: pointer;\n  margin: 20px auto; }\n  .select-button:hover {\n    background-color: white; }\n\n.result {\n  font-style: italic; }\n", ""]);
 	
 	// exports
 
@@ -8544,7 +8544,8 @@
 	var button = $('.select-button');
 	
 	function assignStudentToPage(student) {
-	  $('.result').text('The selected student is ' + student + '.');
+	  var text = 'The selected student is ' + student + '.';
+	  $('.result').text(text);
 	} // end of assignStudentToPage
 	
 	function randomize() {
