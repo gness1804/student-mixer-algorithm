@@ -1,1 +1,5 @@
-This is a simple application based on the Turing School's instructors' algorithm to randomly choose students in our class. 
+##Student Mixer algorithm
+
+[Check it out!]()
+
+This is a simple application based on the Turing School's instructors' algorithm to randomly choose students in our class.
